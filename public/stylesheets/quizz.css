@@ -1,0 +1,98 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+
+  background: url(../images/Finland.jpg);
+  background-repeat:repeat-y;
+  background-position:center center;
+  background-attachment:scroll;
+  background-size:100% 100%;
+}
+
+.timerWapper{
+	width:100px;
+	height:100px;
+  display:inline-block;
+}
+
+
+
+.center-wrapper{
+  text-align: center;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  margin-top: -1.2em;
+  margin-left: -7.2em;
+}
+.center-wrapper * {
+  margin: 0 auto;
+}
+
+.ui-page {
+    background: transparent;
+}
+.ui-content{
+    background: transparent;
+}
+
+.ui-overlay-a{
+	background: transparent;
+}
+
+.ui-bar-a, .ui-page-theme-a .ui-bar-inherit, html .ui-bar-a .ui-bar-inherit, html .ui-body-a .ui-bar-inherit, html body .ui-group-theme-a .ui-bar-inherit{
+	background-color: rgba(233, 233, 233, 0.50);
+	color:#444444;
+}
+
+.ui-btn{
+		font-family: 'Roboto', sans-serif;
+}
+
+#bandeauProposition {
+  text-align:center;
+}
+
+.buttonProposition{
+  margin: 10px 50px;
+}
+
+.status{
+  font-size: 21px;
+  width:100px; 
+  height:100px; 
+  vertical-align:middle;
+  display:inline-block;
+  line-height:normal; /* on rétablit le line-height */
+}
+
+.failure{
+  color: #E80000;
+}
+
+.success{
+  color: #00C217;
+}
+
+.ui-icon-assimil-french:after {
+  background-image: url(../images/french-icon.png);
+  background-size: 22px 22px;
+}
+.ui-icon-assimil-finnish:after {
+  background-image: url(../images/finnish-icon.png);
+  background-size: 22px 22px;
+}
+
+/*[data-role=page]{height: 100% !important; position:relative !important; }*/
+[data-role=header]{font-size:25px;font-family: 'Yellowtail', cursive; }  
+[data-role=footer]{
+	bottom:0; 
+	position:absolute !important; 
+	top: auto !important; 
+	width:100%;
+	font-size: 10px; 
+	font-family: 'Roboto', sans-serif;
+}  
+[data-role=page]{height: 100% !important; position:relative !important;}

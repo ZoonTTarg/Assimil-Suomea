@@ -1,0 +1,102 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin-bottom:0;
+	margin-top:30px;
+}
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper {
+	padding-left:312px;
+	padding-top:10px;
+	position:relative;
+}
+
+#titre {
+	position:absolute;
+	padding-left: 30px;
+	top:0; left:0;
+}
+
+#listemots {
+	margin:15px 0 30px 0;
+}
+	#listemots table {
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+	}
+		#listemots table th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+		#listemots table tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+			#listemots table td {
+				background:#FFF;
+				padding:5px 10px;
+				text-align:center;
+			}
+
+#addMot {
+	width:250px;
+	position:absolute;
+	top:100px; left:20px;
+	background:rgba(80,120,255,0.05);
+	border:1px solid #CCC;
+	padding:15px;
+	margin:0;
+}
+
+#addMot textarea {
+		width:248px;
+	margin-top:5px;
+}
+
+#inputCodetypemot {
+	width:254px;
+	margin-top:5px;
+}
+
+option:first-child{
+	color:#EEE;
+}
+
+#addMot select {
+	height:21px;
+}
+
+#addMot input {
+	margin-top:5px;
+		width:250px;
+}
+fieldset {
+		border:0px;
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+
+th {
+	width:200px;
+}
+
+button{
+	float:right;
+	margin-left:5px;
+}

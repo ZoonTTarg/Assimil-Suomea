@@ -1,0 +1,39 @@
+extends layout
+
+block content
+    #titre
+        h1= title
+        p Paramétrage de la base de mots
+
+    // Wrapper
+    #wrapper
+        #addMot
+            h2 Ajouter un mot
+            fieldset
+                input#inputMot(type='text', placeholder='Mot')
+                br
+                input#inputTrad(type='text', placeholder='Traduction')
+                br
+                input#inputNumoppitunti(type='text', placeholder='Leçon')
+                br
+                select#inputCodetypemot(placeholder='Type')
+                br
+                textarea#inputCommentaire(placeholder='Commentaire')
+                br
+                button#btnAddMot Ajouter
+                button#btnAnnuler Annuler
+        // /ADD USER
+
+        #listemots
+            table
+                thead
+                    th <a href="javascript:changeTri('mot')">Suomea&nbsp;<img id="sortmotASC" class="sort" src="./images/sort-up.png" style="width:12px; height:12px;"><img class="sort" id="sortmotDESC" src="./images/sort-down.png" style="width:12px; height:12px;"></a>
+                    th <a href="javascript:changeTri('trad')">Français&nbsp;<img id="sorttradASC" class="sort" src="./images/sort-up.png" style="width:12px; height:12px;"><img class="sort" id="sorttradDESC" src="./images/sort-down.png" style="width:12px; height:12px;"></a>
+                    th <a href="javascript:changeTri('numoppitunti')">Oppitunti n°&nbsp;<img id="sortnumoppituntiASC" class="sort" src="./images/sort-up.png" style="width:12px; height:12px;"><img id="sortnumoppituntiDESC" class="sort" src="./images/sort-down.png" style="width:12px; height:12px;"></a>
+                    th <a href="javascript:changeTri('codetypemot')">Type&nbsp;<img id="sortcodetypemotASC" class="sort" src="./images/sort-up.png" style="width:12px; height:12px;"><img id="sortcodetypemotDESC" class="sort" src="./images/sort-down.png" style="width:12px; height:12px;"></a>
+                    th Suppr.
+                tbody
+        // /USER LIST
+
+        
+    // /WRAPPER
